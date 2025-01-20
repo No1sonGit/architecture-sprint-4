@@ -1,0 +1,12 @@
+2025-01-20T14:04:04.141+05:00  INFO 1 --- [nio-8080-exec-8] k.k.o.component.LogRequestMethodAdvice   :
+url: GET /api/v1/order/get-order-on-sign
+args: 811227402237 
+result: {"headers":{},"body":{"result":{"code":"OK"},"data":{"order":null,"consignment":null,"consignmentExists":false,"orderExists":false}},"statusCode":"OK","statusCodeValue":200}
+execTime: 3 ms
+2025-01-20T14:04:04.167+05:00  INFO 1 --- [ntainer#0-0-C-1] k.k.o.s.o.OrderLifecycleServiceImpl      : Received response from ClientForm for orderId = 4517066
+2025-01-20T14:04:04.169+05:00  INFO 1 --- [ntainer#0-0-C-1] k.k.o.s.o.OrderLifecycleServiceImpl      : Send request to ChangingClientForm for orderId = 4517066
+2025-01-20T14:04:04.239+05:00  INFO 1 --- [nio-8080-exec-5] k.k.o.component.LogRequestMethodAdvice   : 
+url: GET /api/v1/order/get-order-on-sign
+args: 910329350759 
+result: {"headers":{},"body":{"result":{"code":"OK"},"data":{"order":null,"consignment":null,"consignmentExists":false,"orderExists":false}},"statusCode":"OK","statusCodeValue":200}
+execTime: 4 ms
